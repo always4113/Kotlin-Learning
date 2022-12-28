@@ -13,3 +13,9 @@ fun exclusive(writer: Writer) {
     writer.write("$i ")
   }
 }
+
+fun down(writer: Writer) {
+  for (i in 3 downTo 0) {
+    writer.write("$i ")
+  }
+}

@@ -26,4 +26,15 @@ internal class RangesKtTest {
     val res = writer.toString()
     assertEquals(str, res.trim())
   }
+
+  @Test
+  fun downIterator() {
+    val writer = StringWriter()
+    down(writer)
+      .toString()
+
+    val str = "3 2 1 0"
+    val res = writer.toString()
+    assertEquals(str, res.trim())
+  }
 }
