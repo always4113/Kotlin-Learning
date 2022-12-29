@@ -19,3 +19,12 @@ fun down(writer: Writer) {
     writer.write("$i ")
   }
 }
+
+const val x = 2
+fun condition(): String {
+  var str = ""
+  if (x in (1..5)) {
+    str = "x is in range from 1 to 5"
+  }
+  return str
+}

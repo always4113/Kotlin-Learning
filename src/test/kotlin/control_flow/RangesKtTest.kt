@@ -37,4 +37,10 @@ internal class RangesKtTest {
     val res = writer.toString()
     assertEquals(str, res.trim())
   }
+
+  @Test
+  fun rangeCondition() {
+    val res = condition()
+    assertEquals("x is in range from 1 to 5", res)
+  }
 }
