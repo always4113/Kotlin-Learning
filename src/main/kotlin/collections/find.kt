@@ -1,6 +1,6 @@
 package collections
 
-val words = listOf("Lets", "find", "something", "in", "collection", "somehow")
+private val words = listOf("Lets", "find", "something", "in", "collection", "somehow")
 
 val first = words.find { it.startsWith("some") }
 
